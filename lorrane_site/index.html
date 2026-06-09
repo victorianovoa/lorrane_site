@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Personal Trainer em Brasília, DF. Treino personalizado, wellness e acompanhamento para a sua melhor versão — Lorrane Félix."/>
+  <title>Lorrane Félix · Personal Trainer · Brasília</title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- ── CURSOR ──────────────────────────────────── -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ── WHATSAPP FLUTUANTE ───────────────────────── -->
+  <a href="https://wa.me/5561999728983?text=Olá%20Lorrane!%20Quero%20saber%20mais%20sobre%20seus%20serviços."
+     class="wa-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- ── NAVBAR ───────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">
+      Lorrane <span>Félix</span>
+      <div class="nav-dot"></div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#instagram">Instagram</a></li>
+      <li><a href="#redes">Contatos</a></li>
+      <li><a href="#contato">Fale Comigo</a></li>
+    </ul>
+
+    <a href="https://wa.me/5561999728983" class="nav-cta" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+      WhatsApp
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── MENU MOBILE ──────────────────────────────── -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#sobre"      onclick="closeMenu()">Sobre</a>
+    <a href="#servicos"   onclick="closeMenu()">Serviços</a>
+    <a href="#instagram"  onclick="closeMenu()">Instagram</a>
+    <a href="#redes"      onclick="closeMenu()">Contatos</a>
+    <a href="#contato"    onclick="closeMenu()">Fale Comigo</a>
+    <a href="https://wa.me/5561999728983" class="wa-link" target="_blank">WhatsApp ↗</a>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════ -->
+  <section id="hero">
+
+    <div class="hero-visual">
+      <img src="assets/lorrane.png" alt="Lorrane Félix – Personal Trainer">
+    
+      <div class="hero-tag">Personal Trainer · Brasília · DF</div>
+      <div class="hero-stripe"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Bem-vinda ao seu novo começo</p>
+      <h1 class="hero-title">
+        Cuide do seu<br>
+        corpo com<br>
+        <em>intenção.</em>
+      </h1>
+      <p class="hero-subtitle">
+        Treino personalizado, acolhedor e feito para a sua rotina. Do primeiro treino ao resultado que você sempre quis — juntas.
+      </p>
+      <div class="hero-actions">
+        <a href="#contato" class="btn-primary">
+          Quero Começar
+          <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+            <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#sobre" class="btn-outline">Conheça a Lorrane</a>
+      </div>
+      <p class="hero-scroll">Role para explorar</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SOBRE
+  ══════════════════════════════════════════════ -->
+
+  <section id="sobre">
+    <div class="sobre-visual reveal">
+      <div class="sobre-deco-box"></div>
+      <div class="sobre-deco-dot"></div>
+      <div class="sobre-photo">
+
+        <img src="assets/lorrane2.png" alt="Lorrane Félix — Personal Trainer">
+
+        <div class="sobre-photo-tag">Educação Física · Wellness</div>
+      </div>
+    </div>
+
+    <div class="sobre-content">
+      <p class="section-eyebrow reveal">Sobre mim</p>
+      <h2 class="section-title reveal">Movimento com<br><em>propósito</em></h2>
+      <p class="section-text reveal">
+        Lorrane Félix, Personal Trainer formada em Educação Física. A atividade física vai muito além da estética: é uma ferramenta para desenvolver saúde, disposição, confiança e qualidade de vida. Por isso, o foco do meu trabalho é ajudar cada aluno a construir uma rotina de exercícios que faça sentido para sua realidade, seus objetivos e seu estilo de vida.
+      </p>
+      <p class="section-text reveal">
+        Ofereço um acompanhamento personalizado, com treinos planejados de acordo com suas metas, experiência e necessidades. Cada processo é único, e por isso valorizo um atendimento próximo, respeitando o ritmo, a evolução e os desafios de cada pessoa.
+      </p>
+      <p class="section-text reveal">
+        Estou com você para te ajudar a chegar no seu objetivo, seja emagrecimento, hipertrofia ou condicionamento físico no aspecto geral, o meu foco é de em promover resultados consistentes e hábitos que fiquem para a vida, com paciência, organização, respeito e compreensão.
+      </p>
+      <div class="sobre-badges reveal">
+        <span class="badge">Emagrecimento</span>
+        <span class="badge">Hipertrofia</span>
+        <span class="badge">Wellness</span>
+        <span class="badge">Funcional</span>
+        <span class="badge">Pós-parto</span>
+        <span class="badge">Qualidade de Vida</span>
+      </div>
+      <a href="#contato" class="btn-primary reveal">Fale Comigo</a>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SERVIÇOS
+  ══════════════════════════════════════════════ -->
+  <section id="servicos">
+    <div class="section-header">
+      <p class="section-eyebrow reveal">O que ofereço</p>
+      <h2 class="section-title reveal">Serviços</h2>
+    </div>
+
+    <div class="servicos-grid reveal">
+      <div class="servico-card">
+        <span class="servico-num">01</span>
+        <span class="servico-icon">🏋️‍♀️</span>
+        <h3 class="servico-title">Treino Personalizado</h3>
+        <p class="servico-desc">Planilhas montadas para o seu corpo, objetivo e nível. Acompanhamento presencial ou online, com ajustes contínuos baseados na sua evolução.</p>
+      </div>
+      <div class="servico-card">
+        <span class="servico-num">02</span>
+        <span class="servico-icon">🌿</span>
+        <h3 class="servico-title">Acompanhamento Wellness</h3>
+        <p class="servico-desc">Cuidar de você por inteiro. Rotina de hábitos, qualidade do sono, gestão do estresse e equilíbrio integrados ao seu plano de treino.</p>
+      </div>
+      <div class="servico-card">
+        <span class="servico-num">03</span>
+        <span class="servico-icon">📊</span>
+        <h3 class="servico-title">Avaliação e Evolução</h3>
+        <p class="servico-desc">Avaliação física periódica para medir seus resultados, ajustar estratégias e manter o foco. Você verá sua evolução de forma clara.</p>
+      </div>
+      <div class="servico-card">
+        <span class="servico-num">04</span>
+        <span class="servico-icon">📱</span>
+        <h3 class="servico-title">Assessoria Online</h3>
+        <p class="servico-desc">Treinos em qualquer lugar, com suporte via WhatsApp e vídeos explicativos. Perfeito para quem tem rotina intensa e precisa de flexibilidade.</p>
+      </div>
+      <div class="servico-card">
+        <span class="servico-num">05</span>
+        <span class="servico-icon">🤰</span>
+        <h3 class="servico-title">Pré e Pós-parto</h3>
+        <p class="servico-desc">Movimento seguro e acolhedor em todas as fases da maternidade. Treinos adaptados para gestantes e recuperação pós-parto com cuidado e expertise.</p>
+      </div>
+      <div class="servico-card">
+        <span class="servico-num">06</span>
+        <span class="servico-icon">🧘‍♀️</span>
+        <h3 class="servico-title">Treino Funcional</h3>
+        <p class="servico-desc">Movimento funcional para o seu dia a dia. Ganhe força, mobilidade e disposição — dentro e fora da academia.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       VEJA NA PRÁTICA — 5 cards do Instagram
+       → Para adicionar foto: dentro de .ig-card,
+         adicione <img src="assets/img/foto.jpg" alt="">
+         como primeiro filho — ela preencherá o card.
+       → Para adicionar mais cards: copie um bloco
+         <a class="ig-card"> e edite href + textos.
+  ══════════════════════════════════════════════ -->
+  <section id="instagram">
+    <div class="section-header">
+      <p class="section-eyebrow reveal">Meu Instagram</p>
+      <h2 class="section-title reveal">Me acompanhe no<br><em>Instagram</em></h2>
+      <p class="section-desc reveal">Conteúdo sobre treino, saúde e qualidade de vida — direto do meu perfil.</p>
+    </div>
+
+    <div class="ig-grid reveal">
+
+      <!-- CARD 1 -->
+      <a href="https://www.instagram.com/reel/DXcQ43rEXM-/?utm_source=ig_embed&amp;utm_campaign=loading" class="ig-card" target="_blank" rel="noopener">
+        <div class="ig-placeholder">
+          <svg class="ig-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="6" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          <span class="ig-num">01</span>
+        </div>
+        <div class="ig-overlay">
+          <span class="ig-type">▶ Reel</span>
+          <p class="ig-caption">Treino com intenção, técnica e cuidado — do aquecimento ao resultado.</p>
+          <span class="ig-ver">Ver no Instagram →</span>
+        </div>
+      </a>
+
+      <!-- CARD 2 -->
+      <a href="https://www.instagram.com/p/DWSTh4xER3v/" class="ig-card" target="_blank" rel="noopener">
+        <div class="ig-placeholder">
+          <svg class="ig-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="6" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          <span class="ig-num">02</span>
+        </div>
+        <div class="ig-overlay">
+          <span class="ig-type">◼ Post</span>
+          <p class="ig-caption">Conteúdo pensado para a sua evolução e qualidade de vida.</p>
+          <span class="ig-ver">Ver no Instagram →</span>
+        </div>
+      </a>
+
+      <!-- CARD 3 -->
+      <a href="https://www.instagram.com/reel/DU0rL4oEXjM/" class="ig-card" target="_blank" rel="noopener">
+        <div class="ig-placeholder">
+          <svg class="ig-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="6" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          <span class="ig-num">03</span>
+        </div>
+        <div class="ig-overlay">
+          <span class="ig-type">▶ Reel</span>
+          <p class="ig-caption">Movimento que transforma — veja como funciona na prática.</p>
+          <span class="ig-ver">Ver no Instagram →</span>
+        </div>
+      </a>
+
+      <!-- CARD 4 -->
+      <a href="https://www.instagram.com/reel/DUyAyFtkSBb/" class="ig-card" target="_blank" rel="noopener">
+        <div class="ig-placeholder">
+          <svg class="ig-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="6" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          <span class="ig-num">04</span>
+        </div>
+        <div class="ig-overlay">
+          <span class="ig-type">▶ Reel</span>
+          <p class="ig-caption">Dicas, treinos e motivação para o seu dia a dia saudável.</p>
+          <span class="ig-ver">Ver no Instagram →</span>
+        </div>
+      </a>
+
+      <!-- CARD 5 -->
+      <a href="https://www.instagram.com/reel/DUt54JPEWKR/" class="ig-card" target="_blank" rel="noopener">
+        <div class="ig-placeholder">
+          <svg class="ig-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="6" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          <span class="ig-num">05</span>
+        </div>
+        <div class="ig-overlay">
+          <span class="ig-type">▶ Reel</span>
+          <p class="ig-caption">Consistência e técnica — os pilares do treino da Lorrane.</p>
+          <span class="ig-ver">Ver no Instagram →</span>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Botão ver perfil completo -->
+    <div style="text-align:center; margin-top: 48px;" class="reveal">
+      <a href="https://www.instagram.com/lorraneepersonal/" class="btn-outline" target="_blank" rel="noopener">
+        Ver perfil completo
+        <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+          <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       CLIMA — Widget OpenWeatherMap
+  ══════════════════════════════════════════════ -->
+  <section id="clima">
+    <div class="clima-inner">
+      <div class="clima-weather">
+        <span class="clima-icon" id="clima-icon">⏳</span>
+        <div class="clima-temp" id="clima-temp">--°</div>
+        <div class="clima-city" id="clima-city">Brasília, DF</div>
+      </div>
+      <div class="clima-sep"></div>
+      <div class="clima-rec">
+        <p class="clima-rec-label">Recomendação de treino · hoje</p>
+        <h3 class="clima-rec-title" id="clima-rec-title">Verificando o clima...</h3>
+        <p class="clima-rec-text"  id="clima-rec-text">Buscando as condições de Brasília para personalizar sua recomendação de treino.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="redes">
+    <div class="section-header">
+      <p class="section-eyebrow reveal">Onde me encontrar</p>
+      <h2 class="section-title reveal">Meus <em>Contatos</em></h2>
+    </div>
+
+    <div class="redes-grid reveal">
+
+      <a href="https://www.instagram.com/lorraneepersonal/" class="rede-card" target="_blank" rel="noopener">
+        <div class="rede-icon">📸</div>
+        <div>
+          <div class="rede-name">Instagram</div>
+          <div class="rede-handle">@lorraneepersonal</div>
+        </div>
+        <span class="rede-arrow">→</span>
+      </a>
+
+      <a href="https://wa.me/5561999728983" class="rede-card" target="_blank" rel="noopener">
+        <div class="rede-icon">💬</div>
+        <div>
+          <div class="rede-name">WhatsApp</div>
+          <div class="rede-handle">(61) 99972-8983</div>
+        </div>
+        <span class="rede-arrow">→</span>
+      </a>
+
+      <a href="mailto:personallorrane@gmail.com" class="rede-card">
+        <div class="rede-icon">✉️</div>
+        <div>
+          <div class="rede-name">E-mail</div>
+          <div class="rede-handle">personallorrane@gmail.com</div>
+        </div>
+        <span class="rede-arrow">→</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       CONTATO
+  ══════════════════════════════════════════════ -->
+  <section id="contato">
+
+    <!-- Canais de contato direto -->
+    <div class="contato-info">
+      <p class="section-eyebrow reveal">Vamos conversar</p>
+      <h2 class="section-title reveal">Fale<br><em>comigo</em></h2>
+      <p class="contato-desc reveal">
+        Quer saber mais sobre meus serviços ou dar o primeiro passo? Me chame pelo canal que preferir — respondo com atenção e carinho.
+      </p>
+
+      <div class="contato-canais reveal">
+        <a href="https://wa.me/5561999728983?text=Olá%20Lorrane!" class="canal-item" target="_blank" rel="noopener">
+          <div class="canal-icon">📱</div>
+          <div>
+            <div class="canal-name">WhatsApp</div>
+            <div class="canal-value">(61) 99972 8983</div>
+          </div>
+          <span class="canal-arrow">→</span>
+        </a>
+        <a href="mailto:personallorrane@gmail.com" class="canal-item">
+          <div class="canal-icon">✉️</div>
+          <div>
+            <div class="canal-name">E-mail</div>
+            <div class="canal-value">personallorrane@gmail.com</div>
+          </div>
+          <span class="canal-arrow">→</span>
+        </a>
+        <a href="https://www.instagram.com/lorraneepersonal/" class="canal-item" target="_blank" rel="noopener">
+          <div class="canal-icon">📸</div>
+          <div>
+            <div class="canal-name">Instagram</div>
+            <div class="canal-value">@lorraneepersonal</div>
+          </div>
+          <span class="canal-arrow">→</span>
+        </a>
+        <div class="canal-item" style="pointer-events:none">
+          <div class="canal-icon">📍</div>
+          <div>
+            <div class="canal-name">Localização</div>
+            <div class="canal-value">Brasília · Distrito Federal</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Formulário → php/formulario.php -->
+    <div class="form-wrapper reveal">
+      <h3 class="form-title">Enviar mensagem</h3>
+
+      <!-- Área de feedback (sucesso / erro) — controlada pelo JS -->
+      <div id="form-feedback" class="form-feedback"></div>
+
+      <form id="form-contato" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="nome">
+              Nome <span class="obrigatorio">*</span>
+            </label>
+            <input class="form-input" type="text" id="nome" name="nome"
+                   placeholder="Seu nome completo" required/>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">
+              E-mail <span class="obrigatorio">*</span>
+            </label>
+            <input class="form-input" type="email" id="email" name="email"
+                   placeholder="seu@email.com" required/>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="telefone">WhatsApp / Telefone</label>
+          <input class="form-input" type="tel" id="telefone" name="telefone"
+                 placeholder="(61) 9 9999-9999"/>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="objetivo">
+            Objetivo <span class="obrigatorio">*</span>
+          </label>
+          <select class="form-select" id="objetivo" name="objetivo" required>
+            <option value="" disabled selected>Selecione seu objetivo</option>
+            <option>Emagrecimento</option>
+            <option>Hipertrofia / Ganho de massa</option>
+            <option>Qualidade de vida / Wellness</option>
+            <option>Treino funcional</option>
+            <option>Pré ou pós-parto</option>
+            <option>Assessoria online</option>
+            <option>Outro</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="mensagem">
+            Mensagem <span class="obrigatorio">*</span>
+          </label>
+          <textarea class="form-textarea" id="mensagem" name="mensagem"
+                    placeholder="Conte um pouco sobre você e o que espera do acompanhamento..."
+                    required></textarea>
+        </div>
+
+        <button class="form-submit" type="submit" id="btn-submit">
+          Enviar Mensagem →
+        </button>
+        <p class="form-nota">* Campos obrigatórios · Seus dados são tratados com sigilo.</p>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">Lorrane <span>Félix</span></div>
+        <p class="footer-tagline">Personal Trainer em Brasília — movimento com propósito, cuidado e constância.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Navegação</div>
+        <ul class="footer-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#instagram">Instagram</a></li>
+          <li><a href="#redes">Contatos</a></li>
+          <li><a href="#contato">Fale Comigo</a></li>
+        </ul>
+      </div>
+      <div class="footer-social-col">
+        <div class="footer-col-title">Contatos</div>
+        <div class="footer-social-links">
+          <a href="https://www.instagram.com/lorraneepersonal/" target="_blank">📸 Instagram</a>
+          <a href="https://wa.me/5561999728983"        target="_blank">💬 WhatsApp</a>
+          <a href="mailto:personallorrane@gmail.com">✉️ E-mail</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 Lorrane Félix · Todos os direitos reservados</span>
+      <span class="footer-cref">Educação Física · Brasília, DF</span>
+    </div>
+  </footer>
+
+  <!-- JS (carregado no final para não bloquear o HTML) -->
+  <script src="js/script.js"></script>
+  
+
+</body>
+</html>
