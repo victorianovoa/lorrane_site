@@ -55,7 +55,7 @@ if (!empty($erros)) {
 }
 
 // ── Monta e envia o e-mail ──────────────────────────────────────────────
-$para    = 'lorrane@email.com'; // ← ALTERE para o e-mail real da Lorrane
+$para    = 'personallorrane@gmail.com'; // ← ALTERE para o e-mail real da Lorrane
 $assunto = "Novo contato pelo site – $nome";
 
 $corpo  = "Você recebeu uma nova mensagem pelo site.\n\n";
