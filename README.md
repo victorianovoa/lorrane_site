@@ -1,6 +1,7 @@
 # 🏋️‍♀️ Lorrane Félix | Personal Trainer
 
-Site institucional desenvolvido para a Personal Trainer Lorrane Félix com o objetivo de apresentar sua trajetória profissional, áreas de atuação e canais de contato por meio de uma interface moderna, elegante e responsiva.
+Site institucional desenvolvido para a Personal Trainer Lorrane Félix com o objetivo de apresentar sua trajetória profissional, áreas de atuação e canais de contato por meio de uma interface moderna, elegante e responsiva. 
+<https://victorianovoa.github.io/lorrane_site/>
 
 ## 📖 Sobre o Projeto
 
